@@ -1,12 +1,17 @@
 [package]
-name = "gjk_nestrov-accelerated"
+name = "gjk_nestrov_accelerated"
 version = "0.1.0"
 edition = "2021"
+
+[lib]
+name = "gjk_nestrov_accelerated"
 
 
 [[example]]
 name = "gjk_original"
 crate-type = ["bin"]
+
+
 
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
