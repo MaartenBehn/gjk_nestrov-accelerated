@@ -19,5 +19,14 @@
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "build_release",
         },
+        {
+            "name": "Run gjk_original",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceRoot}/target/debug/examples/gjk_original",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "build_gjk_original",
+        },
     ]
 }

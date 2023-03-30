@@ -12,6 +12,16 @@
             "command": "cargo build --bin gjk_nestrov-accelerated --release",
             "type": "shell",
         },
+        {
+            "label": "build_gjk_original",
+            "command": "cargo build --example gjk_original",
+            "type": "shell",
+            "options": {
+                "statusbar": {
+                  "hide" : true
+                }
+              }
+        },
     ]
 }
 
