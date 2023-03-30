@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceRoot}/target/debug/gjk_nestrov-accelerated",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "build_debug",
+        },
+        {
+            "name": "Release",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceRoot}/target/release/gjk_nestrov-accelerated",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "build_release",
+        },
+    ]
+}
